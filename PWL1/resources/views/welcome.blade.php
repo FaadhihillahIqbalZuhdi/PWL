@@ -1,4 +1,75 @@
 <!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <title>DATA DIRI</title>
+
+    <style>
+        body {
+            font-family: 'Times New Romance';
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            width: 550px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: whitesmoke;
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+        }
+
+        p {
+            margin: 12px 0;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .label {
+            font-weight: bold;
+            color: #333;
+            display: inline-block;
+            width: 200px;
+        }
+
+        .card p {
+            padding: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h2>Kartu Tanda Penduduk</h2>
+        <p><span class="label">Nama:</span> Fa'adhihillah Iqbal Zuhdi</p>
+        <p><span class="label">NIK:</span> 3573042812020005</p>
+        <p><span class="label">Tempat/Tanggal Lahir:</span> MALANG, 28-12-2002</p>
+        <p><span class="label">Jenis Kelamin:</span> LAKI-LAKI</p>
+        <p><span class="label">Gol. Darah:</span> O</p>
+        <p><span class="label">Alamat:</span> JL. BANDULAN IX NO. 574B</p>
+        <p><span class="label">RT/RW:</span> 001/002</p>
+        <p><span class="label">Kelurahan/Desa:</span> BANDULAN</p>
+        <p><span class="label">Kecamatan:</span> SUKUN</p>
+        <p><span class="label">Agama:</span> ISLAM</p>
+        <p><span class="label">Status Perkawinan:</span> Belum Kawin</p>
+        <p><span class="label">Pekerjaan:</span> Pelajar/Mahasiswa</p>
+        <p><span class="label">Kewarganegaraan:</span> WNI</p>
+        <p><span class="label">Berlaku Hingga:</span> Seumur Hidup</p>
+    </div>
+</body>
+
+</html>
+
+{{-- <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -130,4 +201,4 @@
             </div>
         </div>
     </body>
-</html>
+</html> --}}
